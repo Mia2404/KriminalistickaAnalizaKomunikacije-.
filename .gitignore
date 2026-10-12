@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generirani podaci i baza (mogu se ponovno stvoriti generatorom)
+podaci/
+*.db
+*.sqlite
+
+# Uredjivaci i sustav
+.vscode/
+.idea/
+.DS_Store
