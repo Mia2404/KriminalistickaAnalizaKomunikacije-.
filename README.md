@@ -1,7 +1,5 @@
 # Analiza komunikacije osumnjičenika
 
-Semestralni projekt iz kolegija Skriptni jezici (diplomski studij).
-
 Aplikacija iz ispisa poziva i poruka više osoba otkriva tko je s kim povezan,
 tko je u mreži najvažniji, gdje se tko kretao i kada se ponašanje promijenilo.
 Svi podaci su sintetički i nastaju vlastitim generatorom u koji je ugrađen
@@ -10,16 +8,6 @@ skriveni scenarij, pa se na kraju može provjeriti je li ga aplikacija pronašla
 ## Tehnologije
 
 Python, Flask, SQLite, pandas, networkx, folium, pyvis
-
-## Struktura repozitorija
-
-```
-generator_podataka.py   generator sintetičkih ispisa sa skrivenim scenarijem
-requirements.txt        potrebne biblioteke
-docs/                   plan projekta i dokumentacija
-podaci/                 generirani CSV-ovi (ne spremaju se u repozitorij)
-app/                    aplikacija (dodaje se tijekom semestra)
-```
 
 ## Pokretanje
 
